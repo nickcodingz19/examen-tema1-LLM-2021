@@ -1,0 +1,175 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url("fonts/Shentox-Medium.woff2");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-family: url("./fonts/Shentox-Medium.woff2");
+}
+
+header{
+    width:100%;
+    
+    margin: 10px;
+    display: flex;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    
+    
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav{
+    background-color: rgb(156, 156, 156);
+    float: left;
+}
+nav ul li{
+
+    list-style: none;
+    margin: 10px;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: rgb(49, 49, 49)
+}
+
+nav ul li a:hover{
+    border-bottom:dotted 1px black;
+}
+
+
+
+
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    grid-gap: 10px;
+    padding: 10px;
+    height: 400px;
+    margin: 5%;
+    gap: 5px;
+
+}
+
+
+#grid-container > div{
+    border: 1px solid rgb(77, 77, 77);
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-item-selected{
+    background-color: rgb(153, 194, 4);
+
+}
+
+.name{
+    background-color: grey;
+    color:white;
+    width:100%;
+}
+
+.price{
+    background-color: grey;
+    color:white;
+    width:100%;
+
+}
+
+#grid-container img{
+    width: 100%;
+    height: auto;
+}
+
+
+.hero{
+    text-align:center;
+    justify-content: center;
+}
+
+.choose-fleet-title{
+    text-align:center;
+}
+
+#card-ship{
+    display: flex;
+    margin-top: 50%;
+    background-image: url("characters-hero-v3.jpg");
+}
+
+.card-info{
+    background-color: rgb(54, 54, 54);
+   
+}
+
+.card-info h1{
+    color:white;
+}
+
+.card-info h2{
+    color:rgb(21, 226, 226)
+}
+
+.card-info p{
+  color: white;
+}
+
+label{
+    color:rgb(21, 255, 255);
+
+}
+
+.card-info span{
+    color: white;
+}
+
+.card-info input{
+    background-color: rgb(17, 255, 255);
+}
+
+
+
+
+
+
+footer{
+    text-align:center;
+    background-color: rgb(46, 46, 46);
+    
+}
+
+.logos{
+    float:right;
+    color: rgb(46, 46, 46);
+}
+
+button{
+    background-color: rgb(53, 255, 255);
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 30px;
+    }
+  }

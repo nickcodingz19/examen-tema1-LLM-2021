@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVE ONLINE</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logos/logo.svg" alt="" style="margin-top: 20px" />
+      </div>
+      <nav>
+        <li><a href="#">News</a></li>
+        <li><a href="#">EVA Academy</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Recruit a Friend</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">LOG IN</a></li>
+
+        <section class="options-container">
+          <a id="btn-login"><i class="fas fa-user-alt">LOG IN</i></a>
+          <a href=""><i class="fas fa-globe"></i> EN</a>
+
+          <div class="cart-container">
+            <a href="#" id="btn-shopping-cart"><i class="fas fa-shopping-cart"></i>Shopping Cart</a
+            >
+            <div id="user-shopping-cart">
+              <h3>Your fleet</h3>
+              <dl>
+                <dt>Astero</dt>
+                <dd>100 Plan.</dd>
+                <dt>Brutix</dt>
+                <dd>120 Plan.</dd>
+              </dl>
+              <p class="total">
+                Total: 220 Plan <br />
+                <input type="submit" value="Confirm" />
+              </p>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>The #1 Space MMO</h1>
+        <br />
+        <h2>Your Galactic Adventure Awaits</h2>
+        <br />
+        <div>
+          <button>PLAY NOW</button>
+          <button>GET OMEGA</button>
+        </div>
+        <br />
+        <h3>Also avaliable on:</h3>
+        <div class="main-icons">
+          <img
+            src="img/logos/steam-games.svg"
+            alt=""
+            style="margin-right: 1.3rem"
+          />
+          <img src="img/logos/epic-games.svg" alt="" />
+        </div>
+      </section>
+
+      <h2 class="choose-fleet-title">
+        <span>Choose your fleet of stellar ships</span>
+      </h2>
+
+      <section id="grid-container">
+        <div class="grid-item in-your-fleet">
+          <img src="./img/ships/ships-astero.png" alt="" />
+          <p class="name">Astero</p>
+          <br />
+          <p class="price">100 Pla.</p>
+        </div>
+
+        <div class="grid-item in-your-fleet">
+          <img src="./img/ships/ships-brutix.png" alt="" />
+          <p class="name">Brutix</p>
+          <br />
+          <p class="price">170 Pla.</p>
+        </div>
+
+        <div class="grid-item">
+          <img src="./img/ships/ships-charon.png" alt="" />
+          <p class="name">Charon</p>
+          <br />
+          <p class="price">150 Pla.</p>
+        </div>
+
+        <div class="grid-item selected">
+          <img src="./img/ships/ships-venture.png" alt="" />
+          <p class="name">Venture</p>
+          <br />
+          <p class="price">200 Pla.</p>
+        </div>
+
+        <div class="grid-item ">
+          <img src="./img/ships/ships-leshak.png" alt="" />
+          <p class="name">Leshak</p>
+          <br />
+          <p class="price">120 Pla.</p>
+        </div>
+
+        <div class="grid-item ">
+          <img src="./img/ships/ships-raven.png" alt="" />
+          <p class="name">Raven</p>
+          <br />
+          <p class="price">130 Pla.</p>
+        </div>
+
+        <div class="grid-item ">
+          <img src="./img/ships/ships-retribution.png" alt="" />
+          <p class="name">Retribution</p>
+          <br />
+          <p class="price">120 Pla.</p>
+        </div>
+
+        <div class="grid-item">
+          <img src="./img/ships/ships-rifter.png" alt="" />
+          <p class="name">Rifter</p>
+          <br />
+          <p class="price">140 Pla.</p>
+        </div>
+      </section>
+
+      <section id="card-ship">
+        <div class="img-container">
+          <img src="./img/ships/ships-venture.png" width="250px" alt="" />
+          <button id="bnt-cart">Add cart</button>
+        </div>
+        <div class="card-info">
+          <h3 class="title">VENTURE</h3>
+          <h4 class="type">FRIGATE</h4>
+          <p class="description">
+            An agile, tenacious ship that aptly adheres to the mantra of both
+            rescuers and explorers:Stay safe, stay hidden, and use every tool at
+            your disposal.
+          </p>
+          <section class="features">
+              <div><label>Mass</label><span>975t</span></div>
+              <div><label>Cargo</label><span>210 m3</span></div>
+              <div><label>Price</label><span>200 Pla.</span></div>
+              <div><label>Hitpoints</label><span>1740</span></div>
+              <div><label>Velocity</label><span>312 m/s</span></div>
+              <div><label>speciality</label><span>Exploration</span></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="copyright">
+        <p>
+          EVE Online is a free MMORPG sci-fi strategy game where you can embark
+          on your own unique space adventure. EVE's open world MMORPG sandbox,
+          renowned among online space games, lets you choose your own path and
+          engage in combat, exploration, industry and much more. Play the
+          world's #1 space MMO today!
+        </p>
+        <p>Copyright &copy; CCP 1997-2021</p>
+      </div>
+      <div class="logos">
+        <img src="./img/logos/pc-gamer-logo.png" alt="" />
+        <img src="./img/logos/pegiinfo.png" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>

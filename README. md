@@ -1,0 +1,16 @@
+
+
+
+
+## Background banner:
+ background: linear-gradient(to bottom, rgba(255,255,255,0) 20%,
+    rgba(0,0,0,1)), url('../img/characters-hero-v3.jpg') center center;
+
+## Text footer
+<p>EVE Online is a free MMORPG sci-fi strategy game where you can embark on your own unique space adventure.
+    EVE's open world MMORPG sandbox, renowned among online space games, lets you choose your own path and
+    engage in combat, exploration, industry and much more. Play the world's #1 space MMO today!</p>
+<p>Copyright © CCP 1997-2021</p>
+
+
+LINK-github: https://github.com/nickcodingz19/examen-tema1-LLM-2021
